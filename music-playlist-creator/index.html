@@ -3,19 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Music Playlist Explorer</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    
+
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/529413bbca.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <!-- Your header content here -->
+        <h1 class="web-title">Music Playlist Explorer</h1>
+        <img>
+        <a href="featured.html"><span class="link">Featured</span></a>
     </header>
 
-    <main> 
+    <main>
         <!-- Your main content here -->
+        <div class="playlist-cards" id="playlist-cards"></div>
+
+        <div class="modal" id="playlist-modal">
+            <div class="modal-content">
+                <div class="playlist-info">
+                    <img src="assets/img/playlist.png" id="playlist-img" style="width:100px;height:100px;">
+                    <div class="playlist-info2">
+                        <h1 id="playlist-title">Playlist Title</h1>
+                        <p id="creator-name">Creator Name</p>
+                    </div>
+
+                </div>
+                <div id="song-cards"></div>
+
+            </div>
+
+
+        </div>
     </main>
 
     <footer>
