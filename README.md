@@ -10,10 +10,10 @@ Deployed Application (optional): [Music Playlist Explorer Deployed Site](ADD_LIN
 
 #### CORE FEATURES
 
-x [ ] **Display Playlists**
-  x [ ] Dynamically render playlists on the homepage using JavaScript.
-  x [ ] Fetch data from a provided JSON file and use it to create interactive playlist tiles.
-  x [ ] Each title should display the playlist's cover image, name, creator, and like count.
+x[ ] **Display Playlists**
+  x[ ] Dynamically render playlists on the homepage using JavaScript.
+  x[ ] Fetch data from a provided JSON file and use it to create interactive playlist tiles.
+  x[ ] Each title should display the playlist's cover image, name, creator, and like count.
 
 x [ ] **Playlist Details**
   x [ ] Create a modal view that displays detailed information about a playlist when a user clicks on a playlist tile.
